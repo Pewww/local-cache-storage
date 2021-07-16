@@ -1,0 +1,15 @@
+{
+  "name": "local-cache",
+  "version": "1.0.0",
+  "description": "Local cache storage",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Pewww/local-cache.git",
+  "author": "pewww <jung22337@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
