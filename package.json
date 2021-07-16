@@ -1,5 +1,5 @@
 {
-  "name": "local-cache",
+  "name": "custom-local-cache",
   "version": "1.0.0",
   "description": "Local cache storage",
   "main": "dist/index.js",
@@ -19,6 +19,14 @@
     "@babel/preset-typescript": "^7.14.5",
     "@types/jest": "^26.0.24",
     "babel-jest": "^27.0.6",
-    "jest": "^27.0.6"
-  }
+    "jest": "^27.0.6",
+    "jest-localstorage-mock": "^2.4.14"
+  },
+  "jest": {
+    "resetMocks": false,
+		"setupFiles": [
+      "./src/__setups__/localstorage.ts",
+      "jest-localstorage-mock"
+    ]
+	}
 }
