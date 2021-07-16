@@ -19,7 +19,7 @@ export function set(key: string, value: any, cache?: number) {
   return null;
 }
 
-export function get(key: string) {
+export function get(key: string, parse?: boolean) {
   const value = localStorage.getItem(key);
 
   if (value === null) {
@@ -29,10 +29,14 @@ export function get(key: string) {
   const parsed = JSON.parse(value);
 
   if (!(parsed.hasOwnProperty('value') && parsed.hasOwnProperty('expiredAt'))) {
-    return parsed;
+    return value;
   } 
 
   try {
+    const parsedValue = parse
+      ? JSON.parse(parsed.value)
+      : parsed.value;
+
     if (parsed.expiredAt !== null) {
       const currTime = new Date().getTime();
       const expiredAt = parsed.expiredAt;
@@ -41,10 +45,10 @@ export function get(key: string) {
         return remove(key);
       }
   
-      return JSON.parse(parsed.value);
+      return parsedValue;
     }
   
-    return JSON.parse(parsed.value);
+    return parsedValue;
   } catch(e) {
     return null;
   }
