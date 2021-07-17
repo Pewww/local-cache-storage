@@ -20,6 +20,7 @@
     "node_modules",
     "dist",
     "src/__tests__",
-    "src/__setups__"
+    "src/__setups__",
+    "src/__mocks__"
   ]
 }
