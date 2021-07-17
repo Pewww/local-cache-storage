@@ -1,5 +1,5 @@
 module.exports = {
-  testRegex: 'test.ts$',
+  testRegex: 'test.ts',
   coverageDirectory: './coverage/',
   collectCoverage: true,
   coverageReporters: ['json', 'html', 'text', 'text-summary', 'lcov'],
