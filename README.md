@@ -2,6 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/8a11533bc93080cfe2e1/maintainability)](https://codeclimate.com/github/Pewww/local-cache-storage/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8a11533bc93080cfe2e1/test_coverage)](https://codeclimate.com/github/Pewww/local-cache-storage/test_coverage)
+[![Build](https://www.travis-ci.com/Pewww/local-cache-storage.svg?branch=main)](https://www.travis-ci.com/Pewww/local-cache-storage.svg?branch=main)
 
 ## Installing
 
