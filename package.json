@@ -1,8 +1,9 @@
 {
   "name": "local-cache-storage",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Local cache storage",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/Pewww/local-cache.git",
   "author": "pewww <jung22337@naver.com>",
   "license": "MIT",

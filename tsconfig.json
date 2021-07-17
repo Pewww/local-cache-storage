@@ -11,7 +11,8 @@
       "es2020"
     ],
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "declaration": true
   },
   "include": [
     "src"
