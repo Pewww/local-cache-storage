@@ -3,7 +3,7 @@ import { advanceBy, advanceTo } from 'jest-date-mock';
 import { set, get, remove, clear } from '../';
 import { SECOND, MINUTE, DAY } from '../__mocks__/times';
 
-describe('Custom-Local-Cache Test', () => {
+describe('Local-Cache-Storage Test', () => {
   beforeEach(() => {
     clear();
   });

@@ -1,7 +1,7 @@
 # local-cache-storage
 
-<a href="https://codeclimate.com/github/Pewww/local-cache-storage/maintainability"><img src="https://api.codeclimate.com/v1/badges/8a11533bc93080cfe2e1/maintainability" /></a>
-<a href="https://codeclimate.com/github/Pewww/local-cache-storage/test_coverage"><img src="https://api.codeclimate.com/v1/badges/8a11533bc93080cfe2e1/test_coverage" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/8a11533bc93080cfe2e1/maintainability)](https://codeclimate.com/github/Pewww/local-cache-storage/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8a11533bc93080cfe2e1/test_coverage)](https://codeclimate.com/github/Pewww/local-cache-storage/test_coverage)
 
 ## Installing
 
